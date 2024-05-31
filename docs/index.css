@@ -1,0 +1,124 @@
+* {
+    background: red;
+   
+}
+
+html {
+    background: yellow;
+    
+}
+
+body {
+  background: green;
+
+}
+
+nav {
+    background: white;
+    height: 50px;
+    padding: 0% 15%;
+
+    color: steelblue;
+    font: 24pt sans-serif;
+}
+
+span {
+    width: 50%;
+    display: inline-block;
+    background: white;
+    border: 2px solid pink;
+    
+}
+
+
+
+.create {
+    background: steelblue;
+    color: white;
+    width: 80px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 3px 3px lightgray;
+}
+
+.sign-in {
+    background: white;
+    color: steelblue;
+    width: 60px;
+    height: 35px;
+    border: 1px solid steelblue;
+    border-radius: 3px;
+}
+
+.menu-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 15%;
+}
+
+.banner {
+    width: 100%;
+    height: 70px;
+    background: steelblue;
+    box-shadow: 1px 3px 3px lightgray;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    background: black;
+    border: 2px dotted red;
+    margin: 0;
+    padding: 0 15%;
+    height: 200vh;
+}
+
+h2 {
+    background: white;
+}
+
+.trending-scroll {
+    background: white;
+    border: 2px solid pink;
+}
+
+.trending-scroll img {
+    display: inline;
+    max-width: 200px;
+}
+
+.featured-content {
+    background: white;
+    border: 2px solid pink;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-container img {
+    flex-basis: 100%;
+    max-width: 300px;
+}
+
+
+
+
+
+
+.img-container {
+    background: lightgreen;
+    border: 2px dotted black;
+
+}
+
+
+
+/******************* CLASS LIST ADDITIONS *******************/
+
+.menu-activate {
+    background: orange !important
+}
